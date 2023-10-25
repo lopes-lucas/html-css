@@ -5,7 +5,9 @@ body {
     border-bottom: 1px solid #d5d5d5;
 }
 .secao-largura-limitada {
-    width: 800px;
+    width: 100%;
+    min-width: 320px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 .secao-topo p {
